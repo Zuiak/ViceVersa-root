@@ -8,10 +8,12 @@
     <title>Home - Vice Versa</title>
 </head>
 <body>
-    <h1>Vice Versa</h1>
-    <form action="{% url 'reverse' %}">
-        <textarea name="usertext" id="" cols="30" rows="10"></textarea> <br>
-        <input type="submit" value="Reverse">
-    </form>
+    <div class="wrapper">
+        <h1>Vice Versa</h1>
+        <form action="{% url 'reverse' %}">
+            <textarea name="usertext" id="" cols="30" rows="10"></textarea> <br>
+            <input type="submit" value="Reverse">
+        </form>
+    </div>
 </body>
 </html>
